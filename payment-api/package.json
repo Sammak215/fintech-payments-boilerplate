@@ -1,0 +1,40 @@
+{
+  "name": "payment_gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://sammakhussain@bitbucket.org/sammakhussain/payment_system.git",
+  "author": "SyedSammak <sammak.hussain@mvssive.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn run eslint index.js",
+    "serve": "nodemon server.js",
+    "push": "git add . && git commit -m 'pushing' || exit 0",
+
+    "postpush": "git push --all"
+    
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.16",
+    "stripe": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
+  
+

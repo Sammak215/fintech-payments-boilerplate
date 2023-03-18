@@ -1,0 +1,12 @@
+// {
+//   "env": {
+//     "commonjs": true,
+//     "node": true
+//   },
+//   "extends": ["standard", "prettier"],
+//   "plugins": ["promise"],
+//   "rules": {
+//     "promise/catch-or-return": "error",
+//     "promise/prefer-await-to-then": "error"
+//   }
+// }

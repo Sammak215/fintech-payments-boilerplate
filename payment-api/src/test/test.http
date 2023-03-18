@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+
+
+
+#### GET
+
+GET  {{baseUrl}}/payments/
+
+
+# GET  {{baseUrl}}/payments/ch_3Krsm6HDr4eYSKNU1LqUh3da
+
+#### POST 
+
+# POST    {{baseUrl}}/payments
+
+# Content-Type: application/json
