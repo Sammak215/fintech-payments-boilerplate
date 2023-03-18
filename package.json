@@ -1,0 +1,24 @@
+{
+  "name": "payment_gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://sammakhussain@bitbucket.org/sammakhussain/payment_system.git",
+  "author": "SyedSammak <sammak.hussain@mvssive.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "push": "git add . && git commit -m 'pushing' || exit 0",
+    "postpush": "git push --all"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.0",
+     "cors": "^2.8.5",
+    "nodemon": "^2.0.16",
+    "stripe": "^6.5.0"
+  }
+}

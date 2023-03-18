@@ -1,0 +1,37 @@
+{
+  "name": "payment-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "push": "git add . && git commit -m 'pushing' || exit 0",
+    "postpush": "git push --all"
+  },
+  "dependencies": {
+    "antd": "^4.21.2",
+    "axios": "^0.27.2",
+    "firebase": "^9.8.3",
+    "framer-motion": "^6.3.11",
+    "js-cookie": "^3.0.1",
+    "moment": "^2.29.3",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-spinners": "^0.12.0",
+    "recharts": "^2.1.11",
+    "sass": "^1.52.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+}
